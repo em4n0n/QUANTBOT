@@ -13,4 +13,4 @@ def get_sp500_instruments():
     return list(df[0]["Symbol"])
 
 tickers = get_sp500_instruments()
-print(tickers)
+print(tickers) # sp500 tickers obtained in a list
